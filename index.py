@@ -1,4 +1,4 @@
-from flask import Flask ,render_template
+from flask import Flask,render_template
 
 
 app = Flask(__name__)
@@ -9,4 +9,6 @@ def index():
 
 @app.route("/feature")
 def feature():
-    return render_template("feagure.jinja.html")
+    return render_template("feature.jinja.html")
+
+
