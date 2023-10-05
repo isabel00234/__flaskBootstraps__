@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}">
+    <title>首頁</title>
+    <style>.main {
+            background-color: bisque;
+        }</style>
+    
+</head>
+<body>
+    
+    <div class="container main">        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">台北市職能發展學院</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">首頁</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">特色</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">說明</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">產品</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <script src="{{url_for('static', filename='js/bootstrap.js')}}"></script>
+</body>
+</html>
